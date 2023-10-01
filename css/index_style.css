@@ -9,14 +9,24 @@ body{
 }
 
 .profile{
-    border-color:#c58940;
-    border-radius: 100px;
+    display: flex;
+    width:100%;
+    height:300px;
+    justify-content: center;
+    align-items:center;
 }
 
 img{
+    display:flex;
     border-radius:100px;
-
+    width:200px;
+    border: 5px solid ;
+    border-color:rgb(231, 177, 107);
+    margin-left: auto;
+    margin-right:auto;
 }
+
+
 
 #accounts{
     color: white;
