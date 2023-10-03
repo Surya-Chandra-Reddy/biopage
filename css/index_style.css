@@ -1,24 +1,36 @@
 body{
     background-color: antiquewhite;
+    height:1000px;
 }
 
 #name{
     background-color: darkseagreen;
     text-align: center;
-    
+    height:40px;
+    width:100%;
+    margin-bottom:10px;
+    border-radius: 10px;
+    position:sticky;
+    top:5px;
+}
+
+#name > h1 {
+    margin:0
 }
 
 .profile{
-    display: flex;
+    display: inline-block;
     width:100%;
-    height:300px;
+    height:auto;
     justify-content: center;
     align-items:center;
+    position:sticky;
+    top:5px;
 }
 
 img{
     display:flex;
-    border-radius:100px;
+    border-radius:50%;
     width:200px;
     border: 5px solid ;
     border-color:rgb(231, 177, 107);
@@ -32,6 +44,7 @@ img{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:15pt;
     padding-left: 5px;
+    border-radius: 10px;
 }
 
 .linkedin-link{
