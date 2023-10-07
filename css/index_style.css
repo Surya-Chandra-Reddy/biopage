@@ -5,37 +5,29 @@ body{
 
 #name{
     background-color: darkseagreen;
-    text-align: center;
-    height:40px;
-    width:100%;
-    margin-bottom:10px;
-    border-radius: 10px;
-    position:sticky;
-    top:5px;
+    display:flex;
+    border-radius:5px;
+    justify-content: center;
+    text-align:center;
+    flex-shrink: 3;
 }
 
 #name > h1 {
-    margin:0
+    margin:2px;
 }
 
-.profile{
-    display: inline-block;
-    width:100%;
-    height:auto;
+#profile{
+    display: flex;
     justify-content: center;
-    align-items:center;
-    position:sticky;
-    top:5px;
+    margin-top:10px;
 }
 
 img{
-    display:flex;
+    
     border-radius:50%;
     width:200px;
     border: 5px solid ;
     border-color:rgb(231, 177, 107);
-    margin-left: auto;
-    margin-right:auto;
 }
 
 #accounts{
